@@ -28,7 +28,7 @@ namespace pcbang
 			foreach (DrawData outData in saveData)
 				outData.drawData(e.Graphics);
 		}
-
+		//하이
 		public Form1()
 		{
 			InitializeComponent();
