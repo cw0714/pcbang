@@ -20,7 +20,7 @@ namespace pcbang
 		private Point startPoint;   //시작 점
 		private Point nowPoint; //현재 점
 		private Pen myPen;      //펜
-		private ArrayList saveData; //그림 객체 정보 저장\\
+		private ArrayList saveData; //그림 객체 정보 저장
 
 		protected override void OnPaint(PaintEventArgs e)
 		{
@@ -28,13 +28,11 @@ namespace pcbang
 			foreach (DrawData outData in saveData)
 				outData.drawData(e.Graphics);
 		}
-		//하이
-		//얄릴얄ㄹ리얄ㅇ알ㅇ
 		public Form1()
 		{
 			InitializeComponent();
             label1.Text = label2.Text = label3.Text = label4.Text = label5.Text = label6.Text = "유저 없음";
-            textBox1.Focus();   //샬랄라샬라라ㅏ ㄴㅇㄹㄴㅇㄹ
+            textBox1.Focus();   
         }
 
 		private void Form1_Load(object sender, EventArgs e)
