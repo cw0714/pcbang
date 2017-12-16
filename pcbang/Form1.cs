@@ -12,6 +12,8 @@ namespace pcbang
 {
 	public partial class Form1 : Form
 	{
+        private Network net = null;
+
 		public Form1()
 		{
 			InitializeComponent();
