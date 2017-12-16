@@ -42,6 +42,7 @@
 			this.label6 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+			this.groupBox7 = new System.Windows.Forms.GroupBox();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			this.groupBox3.SuspendLayout();
@@ -194,11 +195,21 @@
 			this.richTextBox1.TabIndex = 10;
 			this.richTextBox1.Text = "";
 			// 
+			// groupBox7
+			// 
+			this.groupBox7.Location = new System.Drawing.Point(194, 11);
+			this.groupBox7.Name = "groupBox7";
+			this.groupBox7.Size = new System.Drawing.Size(644, 412);
+			this.groupBox7.TabIndex = 12;
+			this.groupBox7.TabStop = false;
+			this.groupBox7.Text = "groupBox7";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1041, 718);
+			this.Controls.Add(this.groupBox7);
 			this.Controls.Add(this.groupBox1);
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox3);
@@ -209,6 +220,7 @@
 			this.Controls.Add(this.richTextBox1);
 			this.Name = "Form1";
 			this.Text = "마인드 리딩";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();
 			this.groupBox2.ResumeLayout(false);
@@ -242,6 +254,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+		private System.Windows.Forms.GroupBox groupBox7;
 	}
 }
 

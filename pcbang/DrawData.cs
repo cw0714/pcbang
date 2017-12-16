@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,10 +38,17 @@ namespace pcbang
 					break;
 				case 2:
 					rect = new Rectangle(startPoint.X, startPoint.Y, endPoint.X - startPoint.X, endPoint.Y - startPoint.Y);
+					g.DrawEllipse(pen, rect);
 					break;
 				case 3:
+					rect = new Rectangle(startPoint.X, startPoint.Y, endPoint.X - startPoint.X, endPoint.Y - startPoint.Y);
+					g.DrawRectangle(pen, rect);
+					break;
+				case 4:
+					g.DrawLine(pen, startPoint, endPoint);
+					break;
 			}
 		}
 	}
 }
-*/
+
