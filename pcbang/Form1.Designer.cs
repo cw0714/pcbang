@@ -42,8 +42,6 @@
 			this.label6 = new System.Windows.Forms.Label();
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.label7 = new System.Windows.Forms.Label();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			this.groupBox3.SuspendLayout();
@@ -196,32 +194,11 @@
 			this.richTextBox1.TabIndex = 10;
 			this.richTextBox1.Text = "";
 			// 
-			// checkBox1
-			// 
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new System.Drawing.Point(375, 231);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(86, 16);
-			this.checkBox1.TabIndex = 12;
-			this.checkBox1.Text = "checkBox1";
-			this.checkBox1.UseVisualStyleBackColor = true;
-			// 
-			// label7
-			// 
-			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(397, 295);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(38, 12);
-			this.label7.TabIndex = 13;
-			this.label7.Text = "label7";
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1041, 718);
-			this.Controls.Add(this.label7);
-			this.Controls.Add(this.checkBox1);
 			this.Controls.Add(this.groupBox1);
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox3);
@@ -265,8 +242,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
-		private System.Windows.Forms.CheckBox checkBox1;
-		private System.Windows.Forms.Label label7;
 	}
 }
 
