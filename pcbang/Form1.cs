@@ -13,7 +13,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Threading;
 
-namespace pcbang
+namespace pcbang    ///ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ
 {
 	public partial class Form1 : Form
 	{
