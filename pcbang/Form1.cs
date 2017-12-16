@@ -42,7 +42,7 @@ namespace pcbang
 
             net = new Network(this); // 네트워크 클래스 객체 생성
         }
-
+		//뭐령,,
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
