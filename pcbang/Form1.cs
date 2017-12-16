@@ -29,6 +29,7 @@ namespace pcbang
 				outData.drawData(e.Graphics);
 		}
 		//하이
+		//얄릴얄ㄹ리얄ㅇ알ㅇ
 		public Form1()
 		{
 			InitializeComponent();
