@@ -15,6 +15,8 @@ namespace pcbang
 		public Form1()
 		{
 			InitializeComponent();
-		}
+            label1.Text = label2.Text = label3.Text = label4.Text = label5.Text = label6.Text = "유저 없음";
+            textBox1.Focus();
+        }
 	}
 }
