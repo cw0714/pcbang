@@ -259,6 +259,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
 		private System.Windows.Forms.GroupBox groupBox7;
+		private System.Windows.Forms.GroupBox groupBox8;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button1;
 	}
 }
 
